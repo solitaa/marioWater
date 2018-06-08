@@ -1,0 +1,57 @@
+#map
+{
+    position: relative;
+    height: 600px;
+    width : 800px;
+    top:20px;
+    margin: auto;
+    overflow: hidden;
+}
+p:hover{
+	cursor: pointer;
+}
+p{
+    color: white;
+}
+.floors{
+	position: absolute;
+	background-image: url('../images/wall.png');
+}
+.korals{
+	position: absolute;
+	background-image: url('../images/koral.png');
+}
+.coins{
+    width:32px;
+    height:32px;
+    position: absolute;
+    background-image: url('../images/coin.png');
+}
+#end{
+    background-image: url('../images/end.png');
+}
+#hero{
+        width:32px;
+        height:32px;
+        background-image:url('../images/mar1.png');
+        background-position: 0 0;
+        position:absolute;
+}
+.meduza{
+    position: absolute;
+    background-image: url('../images/me.png');
+    width: 37px;
+    height: 44px;
+}
+.dzuk{
+    position: absolute;
+    background-image: url('../images/dz.png');
+    width: 32px;
+    height: 35px;
+}
+.spdzuk{
+    position: absolute;
+    background-image: url('../images/spdz.png');
+    width: 32px;
+    height: 35px;
+}
